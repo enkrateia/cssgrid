@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .post-list {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(100px, 293px));
+            justify-content: center;
+            grid-gap: 28px;
+        }
+        .post {
+            cursor: pointer;
+            position: relative;
+            display: block;
+        }
+        .post-image {
+            margin: 0;
+        }
+        .post-image img {
+            width: 100%;
+            vertical-align: top;
+        }
+        .post-overlay {
+            background: rgba(0, 0, 0, .4);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .post:hover .post-overlay {
+            display: flex;
+        }
+        .post-likes,
+        .post-comments {
+            width: 80px;
+            margin: 5px;
+            font-weight: bold;
+            text-align: center;
+            display: inline-block;
+        }
+
+        @media screen and (max-width: 768px) {
+            .post-list {
+                grid-gap: 3px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <sectio class="post-list">
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="6333b17928305398540ea93f36c06571.gif" alt="" srcset="">
+            </figure>
+            <span class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </span>
+        </a>
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="20992744_1903477566569977_6784355882760898914_n.jpg" alt="" srcset="">
+            </figure>
+            <span class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </span>
+        </a>
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="21105800_1921536138109672_3306133931899012096_n.jpg" alt="" srcset="">
+            </figure>
+            <span class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </span>
+        </a>
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="altAtmhM5yPJ-2i4dvx0t5VK-BUHClkXthLbq1QQLdfwGby.jpg" alt="" srcset="">
+            </figure>
+            <span class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </span>
+        </a>
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="dia-de-los-muertos-skull-black.jpg" alt="" srcset="">
+            </figure>
+            <span class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </span>
+        </a>
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="Quotefancy-4674533-3840x2160.jpg" alt="" srcset="">
+            </figure>
+            <span class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </span>
+        </a>
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="dream-big-work-hard-1024x576.jpg" alt="" srcset="">
+            </figure>
+            <span class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </span>
+        </a>
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="prometheus-artwork-black-background-greek-2710554-1920x1080.png" alt="" srcset="">
+            </figure>
+            <span class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </span>
+        </a>
+    </sectio>
+</body>
+</html>
